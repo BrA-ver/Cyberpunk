@@ -19,6 +19,7 @@ public class PlayerCamera : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        yRotation = player.eulerAngles.y;
     }
 
     private void LateUpdate()
