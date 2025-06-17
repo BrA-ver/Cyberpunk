@@ -10,7 +10,7 @@ public class Robot : MonoBehaviour
     public Material redOn;
     public Material yellowOn;
     public Material greenOn;
-    public Material baseMaterial; // Used when a light is off
+    public Material baseMaterial; 
 
     public float redDuration = 5f;
     public float greenDuration = 5f;
